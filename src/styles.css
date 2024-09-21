@@ -1,0 +1,28 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+}
+
+.home-container {
+  text-align: center;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-container h3 {
+  color: #2e3b55;
+}
+
+.home-container button {
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #2e3b55;
+  color: white;
+  padding: 2rem;
+}

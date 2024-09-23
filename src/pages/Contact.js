@@ -17,7 +17,7 @@ const Contact = () => {
       </Typography>
       <Typography variant="body1" paragraph>
         I'm always open to discussing new opportunities. Feel free to reach out
-        to me via the form below!
+        to me by phone, email or via the form below!
       </Typography>
 
       <ContactForm />

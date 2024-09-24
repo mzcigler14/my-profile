@@ -26,3 +26,21 @@ footer {
   color: white;
   padding: 2rem;
 }
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Responsive column width */
+  gap: 10px; /* Adds space between the images */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  position: center;
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the grid cell */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 300px; /* Optional: Control maximum height */
+  object-fit: cover; /* Fill the grid space without distortion */
+}
